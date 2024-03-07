@@ -47,3 +47,7 @@ for i in dates_until_today:
         # Write some content to the file
         file.write("Hello, this is some content written to the file.\n")
     commit_to_git_in_the_past(i, "My commit message")
+    commit_to_git_in_the_past(i, "My commit message")
+    commit_to_git_in_the_past(i, "My commit message")
+    commit_to_git_in_the_past(i, "My commit message")
+    commit_to_git_in_the_past(i, "My commit message")
