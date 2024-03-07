@@ -37,9 +37,13 @@ def get_dates_until_today(start_date_str):
 
 
 # Example usage
-start_date_str = '2024-03-08'
+start_date_str = '2024-03-07'
 dates_until_today = get_dates_until_today(start_date_str)
 
 for i in dates_until_today:
     print(i, "commenting for date")
+    import uuid
+    with open(str(uuid.uuid4()), "w") as file:
+        # Write some content to the file
+        file.write("Hello, this is some content written to the file.\n")
     commit_to_git_in_the_past(i, "My commit message")
